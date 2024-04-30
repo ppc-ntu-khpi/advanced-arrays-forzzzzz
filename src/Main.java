@@ -3,13 +3,13 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int [][] matrix = new int[3][3];
-        int x=0;
 
-        for(int[] row:matrix)
-            Arrays.fill(row,x);
+        int n = 5;
+        int x = 3;
 
-        for(int[] row:matrix)
-            System.out.println(Arrays.toString(row));
+        Matrix matrix = new Matrix(n);
+
+        matrix.fillMatrix(x);
+        matrix.printMatrix();
     }
 }
