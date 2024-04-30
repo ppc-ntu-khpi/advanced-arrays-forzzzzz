@@ -83,4 +83,4 @@ public class Main {
 Process finished with exit code 0
 ```
 
-#### Дякую за увагу! Усього найкращого:kissing_heart:
+#### Дякую за увагу! Усього найкращого :kissing_heart:
